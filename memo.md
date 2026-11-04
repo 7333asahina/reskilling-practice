@@ -14,3 +14,15 @@ git config --global user.email "t.asahina@teamtech.by-works.net"
 
 https://github.com/7333asahina/-reskilling-practice.git
 ミスでリポ作った。
+---
+day 2
+ブラウザ型 
+
+エディタ型　併用：前の現場でこれだったので。
+```
+#hello.py
+print("こんにちは")
+print("今日から15日間、よろしくお願いします")
+print("お手数かけます。")
+```
+挨拶と15日間の開始あいさつ、およびお礼を表示します。
