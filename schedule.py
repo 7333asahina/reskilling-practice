@@ -16,15 +16,17 @@ from zoneinfo import ZoneInfo
 def load_schedule():
     # schedule.py と同じフォルダにある予定表を探す
     path = Path(__file__).resolve().parent / "schedule.json"
-    if not path.exists():
-        print(f"schedule.json が見つかりません。{path} に配置してください。")
-        return None
-
-    # JSONファイルを読み込んで、予定のリストとして返す
-    with path.open("r", encoding="utf-8") as file:
-        return json.load(file)
-
-
+    try:
+        # JSONファイルを読み込んで、予定のリストとして返す
+        with path.open("r", encoding="utf-8") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        print(f"エラー: {path} が見つかりません。同じフォルダに置いてください。")
+        sys.exit(1)
+    except json.JSONDecodeError as e:
+        print(f"エラー: {path} の中身が JSON として読めません（{e.lineno} 行目あたり）")
+        sys.exit(1)
+        
 def filter_by_date(schedule, date):
     # 開始日時の日付が指定された日付と一致する予定だけを集める
     filtered = [
