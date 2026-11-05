@@ -24,4 +24,4 @@ day3
 1ページ開いたときの往復の数（およそ）: 303回
 curl -I の1行目: HTTP/2 200 :HTTP/1.1 200 OK    
 無いページの1行目: HTTP/2 404 :HTTP/1.1 404 Not Found
-API の full_name: >https://api.github.com/repos/7333asahina/reskilling-practice  pushed_at: 7333asahina/reskilling-practice main 2026-11-04T07:41:36Z
+API の full_name: >7333asahina/reskilling-practice  pushed_at: 7333asahina/reskilling-practice main 2026-11-04T07:41:36Z
