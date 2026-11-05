@@ -19,3 +19,9 @@ day 2
 □ 自分の schedule.py が GitHub にある（午前）
 □ schedule.py の3つの関数について、役割を1行ずつ書いた（memo.md）
 □ review-target.py の誤りを3つ、行番号と理由つきで書いた（review.md）
+day3
+## 第3回 午前
+1ページ開いたときの往復の数（およそ）: 303回
+curl -I の1行目: HTTP/2 200 :HTTP/1.1 200 OK    
+無いページの1行目: HTTP/2 404 :HTTP/1.1 404 Not Found
+API の full_name: repo.json pushed_at: 7333asahina/reskilling-practice main 2026-11-04T07:41:36Z
