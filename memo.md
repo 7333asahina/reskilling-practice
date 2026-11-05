@@ -6,12 +6,6 @@
 □ VS Code で reskilling フォルダが開けていて、左に .venv が見える
 □ VS Code の中のターミナルで py hello.py（Mac は python3 hello.py）が「こんにちは」を返す
 
-user.name asahina_tomonori
-user.email=t.asahina@teamtech.by-works.net
-
-git config --global user.name "asahina_tomonori"
-git config --global user.email "t.asahina@teamtech.by-works.net"
-
 https://github.com/7333asahina/-reskilling-practice.git
 ミスでリポ作った。
 ---
@@ -25,7 +19,6 @@ day 2
 □ 自分の schedule.py が GitHub にある（午前）
 □ schedule.py の3つの関数について、役割を1行ずつ書いた（memo.md）
 □ review-target.py の誤りを3つ、行番号と理由つきで書いた（review.md）
----
 day3
 ## 第3回 午前
 1ページ開いたときの往復の数（およそ）: 303回
